@@ -14,7 +14,7 @@ groq_api_key = os.getenv("GROQ_API_KEY")
 model_check = 'Llama-3.1-70b-Versatile'
 llm = ChatGroq(temperature=0.3, groq_api_key = os.getenv('GROQ_API_KEY'), model_name=model_check)
 # Initialize the language model
-llm = ChatOpenAI(model = "llama3.1",base_url = "http://localhost:11434/v1")
+# llm = ChatOpenAI(model = "llama3.1",base_url = "http://localhost:11434/v1")
 parser = StrOutputParser()
 
 # Create a conversation memory
