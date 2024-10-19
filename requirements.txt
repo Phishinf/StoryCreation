@@ -4,6 +4,7 @@ ollama
 asyncio
 aiohttp
 langchain-community
+langchain-ollama
 langchain
 autogen
 openai
